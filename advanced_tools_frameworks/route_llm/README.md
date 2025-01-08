@@ -1,6 +1,6 @@
 # RouteLLM App
 
-The **RouteLLM App** is an innovative chatbot application that leverages **efficient router models** to dynamically select between stronger and weaker Large Language Models (LLMs) during inference. 
+The **RouteLLM App** is an innovative application that leverages **efficient router models using classfication ML algorithms** to dynamically select between stronger and weaker Large Language Models (LLMs) during inference. 
 This approach balances cost and response quality, making it a practical solution for deploying LLMs in real-world applications.
 
 ---
