@@ -54,6 +54,7 @@ Chat History: Displays user and assistant messages along with the model used for
 Chat Input: Enter your query, and RouteLLM will dynamically decide which model to use for the response.
 
 **How It Works**
+
 **Routing Decision:** The router determines whether the query should be processed by the strong or weak model.
 
 **Model Inference:** The chosen model generates the response.
@@ -69,6 +70,7 @@ Chat Input: Enter your query, and RouteLLM will dynamically decide which model t
 **Router:** Trained to optimize the balance between cost and response quality.
 
 **Use Cases**
+
 The RouteLLM Chat App is ideal for:
 
 Cost-Effective Applications: Deploy LLMs efficiently for use cases like customer support and interactive chatbots.
@@ -81,6 +83,7 @@ Scalable AI Solutions: Minimize costs while delivering high-quality outputs at s
 We welcome contributions to enhance the project! To contribute:
 
 Fork the repository.
+
 **Create a feature branch:**
 
 git checkout -b feature-name
@@ -90,7 +93,9 @@ Commit your changes and push the branch.
 Open a pull request.
 
 **License**
+
 This project is distributed under the MIT License. See LICENSE for more details.
 
 **Contact**
+
 For any questions, suggestions, or support, feel free to contact abhishek.dodda1@gmail.com.
