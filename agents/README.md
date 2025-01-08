@@ -38,7 +38,8 @@ Both systems leverage CrewAI's multi-agent capabilities to deliver efficient and
 
 ### Steps
 ```bash
-   clone the repo   
+   git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+   cd abhi-llm-apps/agents
    pip install -r requirements.txt
 ```
 **Running the Systems**
