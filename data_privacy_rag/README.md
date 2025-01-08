@@ -58,7 +58,7 @@ The project includes two primary approaches:
    cd data-privacy-llm
 
 **Install the dependencies:**
-
+```bash
 pip install -r requirements.txt
 
 **Usage**
