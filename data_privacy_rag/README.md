@@ -81,9 +81,7 @@ Output:
 
 Database: Tracks the mapping of original and fake values in pii_mapping.db.
 
-Approach 2: 
-
-Generic Anonymization with <ANONYMIZED> Placeholders
+Approach 2: Generic Anonymization with <ANONYMIZED> Placeholders
 
 Purpose: Replaces sensitive data with <ANONYMIZED> placeholders.
 
@@ -95,7 +93,7 @@ Example: Input:
 "Abhishek Dodda is in Texas and his phone number is 555-555-5555"
 
 Output:
-"Abhishek Dodda is in <ANONYMIZED> and his phone number is <ANONYMIZED>"
+"<ANONYMIZED> is in <ANONYMIZED> and his phone number is <ANONYMIZED>"
 
 Database: Tracks original values and anonymization details in pii_mapping.db.
 
@@ -108,7 +106,8 @@ EMAIL_ADDRESS
 DATE_TIME
 PERSON
 
-Customization
+**Customization**
+
 Adding New PII Types: Update the analyzer.analyze method to include additional entities.
 
 Custom Fake Data: Modify the generate_fake_data function to customize how fake data is generated for each PII type.
@@ -119,15 +118,15 @@ Example Database Schema
 
 SQLite database (pii_mapping.db) tracks the following:
 
-uuid: Unique identifier for the PII record.
+**uuid**: Unique identifier for the PII record.
 
-pii_type: Type of the detected PII (e.g., PHONE_NUMBER).
+**pii_type**: Type of the detected PII (e.g., PHONE_NUMBER).
 
-original_value: The original sensitive data.
+**original_value**: The original sensitive data.
 
-fake_value: The anonymized replacement value (for Faker-based anonymization).
+**fake_value**: The anonymized replacement value (for Faker-based anonymization).
 
-confidence: Confidence score for the PII detection.
+**confidence**: Confidence score for the PII detection.
 
 **Applications**
 
