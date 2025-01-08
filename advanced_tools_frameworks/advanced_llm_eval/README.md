@@ -48,11 +48,6 @@ The framework is demonstrated on a **biomedical dataset** (`MACCROBAT_biomedical
 - **General AI Applications**:
   - Evaluate RAG systems for diverse domains, ensuring high-quality and trustworthy outputs.
 
-## Resources
-
-For detailed implementation and concepts, refer to the accompanying blog post:
-[Evaluating Medical RAG with NVIDIA AI Endpoints and RAGAS](https://developer.nvidia.com/blog/evaluating-medical-rag-with-nvidia-ai-endpoints-and-ragas/)
-
 ## How It Works
 
 1. **Dataset Loading**:
