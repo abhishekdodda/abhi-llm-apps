@@ -68,9 +68,9 @@ Approach 1: Using Faker Library for Realistic Anonymization
 Purpose: Replaces sensitive data with realistic fake values (e.g., fake names, phone numbers).
 
 Execution: Run the faker_anonymization.py script:
-
+```bash
 python faker_anonymization.py
-
+```
 Example: 
 Input:
 "John is in Texas and his phone number is 555-555-5555"
@@ -87,9 +87,9 @@ Generic Anonymization with <ANONYMIZED> Placeholders
 Purpose: Replaces sensitive data with <ANONYMIZED> placeholders.
 
 Execution: Run the generic_anonymization.py script:
-
+```bash
 python generic_anonymization.py
-
+```
 Example: Input:
 "Abhishek Dodda is in Texas and his phone number is 555-555-5555"
 
@@ -149,9 +149,9 @@ We welcome contributions to improve the project. To contribute:
 Fork the repository.
 
 Create a feature branch:
-
+```bash
 git checkout -b feature-name
-
+```
 Commit your changes and push the branch.
 
 Open a pull request.
