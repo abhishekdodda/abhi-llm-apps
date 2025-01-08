@@ -1,6 +1,6 @@
 # Welcome to Abhi-LLM-Apps
 
-Welcome to **Abhi-LLM-Apps**, implementation of projects and prototypes demonstrating best practices for working with **Large Language Models (LLMs)**, AI-powered applications, and AI agents. Repo is a hub for exploring **cutting-edge AI solutions**, leveraging advanced tools, frameworks, and methodologies to inspire and guide developers in building innovative, ethical, and scalable AI applications.
+Welcome to **Abhi-LLM-Apps**, implementation of projects and prototypes demonstrating best practices for working with **Large Language Models (LLMs)**, AI-powered applications, and AI agents. Repo is a hub for exploring AI solutions, leveraging advanced tools, frameworks, and methodologies to inspire and guide developers in building innovative, safe, responsible, ethical, and scalable AI applications.
 
 ## Overview
 
