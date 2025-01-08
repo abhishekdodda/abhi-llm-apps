@@ -11,11 +11,11 @@ This repository demonstrates the use of a **semantic cache** to optimize inferen
 ## Installation
 
 To set up the project locally, follow these steps:
-1. Clone this repository:
+```bash
    git clone https://github.com/abhishekdodda/semantic-cache.git
-2. cd semantic-cache
-3. pip install -r requirements.txt
-
+   cd semantic-cache
+   pip install -r requirements.txt
+```
 **Open the Jupyter Notebook**
 jupyter notebook LLMs_semantic_cache.ipynb
 
