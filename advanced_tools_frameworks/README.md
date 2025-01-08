@@ -12,7 +12,7 @@ Ensures a balance between resource efficiency and response quality.
 
 **Semantic Cache Implementation**
 Boost application speed and reduce inference costs:
-Cache frequently accessed data for faster retrieval.
+Semantic Cache implementation data for faster retrieval.
 Enable scalable and cost-effective AI applications without sacrificing performance.
 
 **LLM as a Judge**
