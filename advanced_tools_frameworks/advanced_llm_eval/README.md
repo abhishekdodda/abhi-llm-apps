@@ -1,4 +1,4 @@
-# Evaluating LLM Applications with RAGAS, NVIDIA AI Endpoints, LLM as a judge
+# Evaluating LLM Applications with RAGAS, LLM as a judge
 
 Welcome to the project on **Evaluating LLM Applications** using the **LLM-as-a-Judge** framework with **RAGAS** and **NVIDIA AI Endpoints**. code demonstrates an efficient evaluation framework for Retrieval-Augmented Generation (RAG) systems, focusing on **answer relevancy**, **faithfulness**, and **retrieval precision**. The implementation leverages models like **NVIDIA Llama 3.1** and **Mistral Mixtral**.
 
