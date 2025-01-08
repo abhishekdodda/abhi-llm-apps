@@ -1,12 +1,12 @@
 # Welcome to Abhi-LLM-Apps
 
-Welcome to **Abhi-LLM-Apps**, implementation of projects and prototypes demonstrating best practices for working with **Large Language Models (LLMs)**, AI-powered applications, and AI agents. This repository is a hub for exploring **cutting-edge AI solutions**, leveraging advanced tools, frameworks, and methodologies to inspire and guide developers in building innovative, ethical, and scalable AI applications.
+Welcome to **Abhi-LLM-Apps**, implementation of projects and prototypes demonstrating best practices for working with **Large Language Models (LLMs)**, AI-powered applications, and AI agents. Repo is a hub for exploring **cutting-edge AI solutions**, leveraging advanced tools, frameworks, and methodologies to inspire and guide developers in building innovative, ethical, and scalable AI applications.
 
 ## Overview
 
-This repository features a diverse range of **LLM applications** powered by state-of-the-art models such as **OpenAI**, **Llama 3**, and **Mistral**, as well as frameworks like **Ollama** for local model deployment. For advanced users, it includes implementations of **Nvidia NIMs** and **VILA**, as well as highly customized tools like **Mixture of Agents** and **Route LLM** for specialized use cases.
+Repo features a diverse range of **LLM applications** powered by models such as **OpenAI**, **Llama 3**, and **Mistral**, as well as frameworks like **Ollama** for local model deployment. For advanced users, it includes implementations of **Nvidia NIMs** and **VILA**, as well as highly customized tools like **Mixture of Agents** and **Route LLM**, **LLM-as-a-Judge**, **Semantic Cache** for specialized use cases.
 
-Whether you’re exploring generative AI, fine-tuning models, or building robust AI workflows, **Abhi-LLM-Apps** offers a rich array of tools and prototypes tailored to technical audiences.
+**Go through the below, on what is built here**
 
 ## Highlights
 
@@ -47,6 +47,13 @@ Optimize cost and performance by dynamically routing queries between strong and 
 Boost application speed and reduce inference costs:
 - Cache frequently accessed data for faster retrieval.
 - Enable scalable and cost-effective AI applications without sacrificing performance.
+
+#### LLM as a Judge
+Robust evaluation framework for your llm applications:
+- The framework applies the LLM-as-a-Judge methodology, utilizing powerful language models as evaluators to analyze and grade generated outputs. This ensures objective and consistent evaluation across metrics.
+- Answer Relevancy: Measures how relevant the generated answers are to the provided query.
+- Faithfulness: Ensures that generated answers are grounded in the provided context and do not hallucinate information.
+- Demonstration of using Ragas Frameworks, Nvidia models
 
 ### Nvidia NIMs and VILA
 - **Nvidia NIMs**: Enhance retrieval and reranking capabilities with Mistral-based models.
