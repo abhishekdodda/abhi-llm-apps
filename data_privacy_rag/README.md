@@ -60,6 +60,7 @@ The project includes two primary approaches:
 **Install the dependencies:**
 ```bash
 pip install -r requirements.txt
+```
 
 **Usage**
 Approach 1: Using Faker Library for Realistic Anonymization
