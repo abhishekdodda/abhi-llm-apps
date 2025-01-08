@@ -54,9 +54,8 @@ The project includes two primary approaches:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/abhishekdodda/data_privacy_rag.git
-   cd data_privacy_rag
-
+   git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+   cd abhi-llm-apps/data_privacy_rag
 **Install the dependencies:**
     ```bash
     pip install -r requirements.txt
