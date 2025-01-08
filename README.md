@@ -23,7 +23,7 @@ Explore methods to ensure data privacy in AI workflows:
 
 ### Finetuning LLMs
 Learn how to fine-tune models like **Llama 3.2** for specific applications:
-- **Low-Rank Adaptation (LoRA)**: Efficiently optimize model layers for specialized tasks.
+- **Low-Rank Adaptation (LoRA)**: Efficiently optimize model layers for specialized domain specific tasks.
 - **Dataset Integration**: Customize finetuning workflows using curated datasets for improved performance.
 
 ### Guardrails for AI Safety
