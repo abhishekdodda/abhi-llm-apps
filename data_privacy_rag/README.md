@@ -63,6 +63,7 @@ The project includes two primary approaches:
     ```
 
 **Usage**
+
 Approach 1: Using Faker Library for Realistic Anonymization
 
 Purpose: Replaces sensitive data with realistic fake values (e.g., fake names, phone numbers).
