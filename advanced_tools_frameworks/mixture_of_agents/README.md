@@ -32,7 +32,7 @@ The aggregator model:
 
 To set up and run the project locally, follow these steps:
 ```bash
-git clone https://github.com/your-username/mixture-of-agents.git
+git clone https://github.com/abhishekdodda/mixture-of-agents.git
 cd mixture-of-agents
 pip install -r requirements.txt
 streamlit run app.py
