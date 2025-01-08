@@ -42,7 +42,8 @@ the project showcases methods to handle sensitive topics, prevent jailbreaking a
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/abhishekdodda/llm-guardrails.git
+   git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+   cd abhi-llm-apps/guardrails
    pip install -r requirements.txt
    Create a .env file and add your OpenAI API key:
    OPENAI_API_KEY=your_openai_api_key
