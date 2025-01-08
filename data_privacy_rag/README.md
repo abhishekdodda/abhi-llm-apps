@@ -97,13 +97,20 @@ Output:
 
 Database: Tracks original values and anonymization details in pii_mapping.db.
 
-Supported PII Types
+**Supported PII Types**
+
 PHONE_NUMBER
+
 LOCATION
+
 CREDIT_CARD
+
 US_SSN
+
 EMAIL_ADDRESS
+
 DATE_TIME
+
 PERSON
 
 **Customization**
