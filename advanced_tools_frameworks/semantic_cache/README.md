@@ -4,7 +4,7 @@ This repository demonstrates the use of a **semantic cache** to optimize inferen
 
 ## Key Features
 
-- **Inference Cost Optimization**: Minimizes redundant API calls to LLMs by caching semantically similar queries.
+- **Inference Cost Optimization**: Minimizes redundant API calls to LLMs by caching semantically similar queries along with their responses
 - **Fast Retrieval**: Implements a high-performance caching layer using FAISS for real-time query matching.
 - **Scalability**: Designed for seamless integration into LLM-based applications.
 
