@@ -54,13 +54,13 @@ The Customer Support Agent system provides comprehensive support to customers, e
 **Set API Key:** Configure your OpenAI API key in the get_openai_api_key() function.
 
 **Run the Support System:**
-
+```bash
 crew.kickoff(inputs={
     "customer": "Customer Name",
     "person": "Customer Representative Name",
     "inquiry": "Customer Inquiry Details"
 })
-
+```
 
 **The system outputs**
 
@@ -74,9 +74,9 @@ The Research Article Writer system generates well-structured and factually accur
 
 Set API Key: Configure your OpenAI API key in the get_openai_api_key() function.
 Run the Writing System:
-
+```bash
 crew.kickoff(inputs={"topic": "Topic of the Research Article"})
-
+```
 **The system outputs**
 
 Content Plan
@@ -97,12 +97,12 @@ Automate the content creation process with role-specific agents.
 
 **Dependencies**
 
-**crewai: ** Core library for creating and managing agents and tasks.
+**crewai:** Core library for creating and managing agents and tasks.
 **crewai_tools:** Utility tools for web scraping and search.
 **langchain_community:** For enhanced LLM integration.
-
+```bash
 pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
-
+```
 **Contributing**
 
 I welcome contributions to enhance the project! To contribute:
