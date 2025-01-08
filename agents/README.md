@@ -1,4 +1,4 @@
-**# CrewAI Multi-Agent System: Customer Support and Research Article Writer**
+**CrewAI Multi-Agent System: Customer Support and Research Article Writer**
 
 This project demonstrates the use of **CrewAI** to develop two distinct AI-powered multi-agent systems:
 1. **Customer Support Agent**: A robust system for providing high-quality, friendly, and comprehensive customer support.
