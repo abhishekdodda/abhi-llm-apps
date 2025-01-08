@@ -74,6 +74,8 @@ The framework is demonstrated on a **biomedical dataset** (`MACCROBAT_biomedical
 2. **Setup**:
    - Clone the repository and install required dependencies:
      ```bash
+     git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+     cd abhi-llm-apps/advanced_tools_frameworks/advanced_llm_eval
      pip install -r requirements.txt
      ```
 
