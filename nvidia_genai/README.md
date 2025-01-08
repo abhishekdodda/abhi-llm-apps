@@ -61,7 +61,7 @@ Step 4: Generate Final Response
 
 Integrate reranking with a Retrieval-based QA chain
 
-2. **Vision-Language Model (VILA)**
+**Vision-Language Model (VILA)**
 
 **Step 1: Upload Multimedia Files**
 
@@ -102,3 +102,25 @@ Rerank functionality improves the accuracy of search results in knowledge bases 
 
 Multimedia Analysis:
 VILA enables querying and understanding multimedia content, such as video surveillance or image-based datasets.
+
+Contributing
+Welcome contributions to improve this project. To contribute:
+
+Fork the repository.
+Create a feature branch:
+bash
+Copy code
+git checkout -b feature-name
+
+Commit your changes and push the branch.
+
+Open a pull request.
+
+**License**
+
+This project is licensed under the MIT License. See LICENSE for details.
+
+**Contact**
+
+For questions, suggestions, or support, feel free to contact abhishek.dodda1@gmail.com.
+
