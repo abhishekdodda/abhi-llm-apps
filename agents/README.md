@@ -8,7 +8,7 @@ Both systems leverage CrewAI's multi-agent capabilities to deliver efficient and
 
 ---
 
-**## Key Features**
+** Key Features**
 
 **Customer Support Agent**
 
@@ -109,9 +109,9 @@ I welcome contributions to enhance the project! To contribute:
 Fork the repository.
 
 Create a feature branch
-
+```bash
 git checkout -b feature-name
-
+```
 Commit your changes and push the branch.
 
 Open a pull request.
