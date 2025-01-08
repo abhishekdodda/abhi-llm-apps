@@ -31,11 +31,12 @@ The aggregator model:
 ## Installation
 
 To set up and run the project locally, follow these steps:
+```bash
 git clone https://github.com/your-username/mixture-of-agents.git
 cd mixture-of-agents
 pip install -r requirements.txt
 streamlit run app.py
-
+````
 Interface Walkthrough
 Main Page:
 
@@ -69,9 +70,9 @@ Welcome contributions to this project! To contribute:
 
 Fork the repository.
 Create a feature branch:
-
+```bash
 git checkout -b feature-name
-
+```
 Commit your changes and push the branch.
 Open a pull request.
 
