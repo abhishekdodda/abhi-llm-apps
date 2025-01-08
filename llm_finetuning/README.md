@@ -11,16 +11,9 @@ Code demonstrates how to finetune the Llama 3.2 model using the [Unsloth] librar
 
 ### Installation
 
-1. Clone the repository:
-
 ```bash
-git clone https://github.com/abhishekdodda/llm_finetuning.git
-cd llm_finetuning
-```
-
-2. Install the required dependencies:
-
-```bash
+git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+cd abhi-llm-apps/llm_finetuning
 pip install -r requirements.txt
 ```
 
