@@ -37,3 +37,68 @@ This project demonstrates building advanced Large Language Model (LLM) applicati
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/nvidia-llm-apps.git
+   cd nvidia-llm-apps
+   pip install -r requirements.txt
+   NVIDIA_API_KEY=your_nvidia_api_key```
+
+Usage
+
+**Rerank Functionality with Retrieval**
+
+Step 1: Load and Split Documents
+
+Load a PDF document and split it into manageable chunks
+
+Step 2: Perform Retrieval
+
+Index the document chunks using FAISS and perform retrieval
+
+Step 3: Rerank Results
+
+Use NVIDIA’s Rerank module to improve retrieval results
+
+Step 4: Generate Final Response
+
+Integrate reranking with a Retrieval-based QA chain
+
+2. **Vision-Language Model (VILA)**
+
+**Step 1: Upload Multimedia Files**
+
+Upload images or videos for analysis:
+
+python test.py sample1.png sample2.png
+
+**Step 2: Analyze video Content**
+
+Send descriptive queries to VILA for content analysis:
+
+python test.py sample.mp4
+
+query = "Describe the scene"
+
+**Step 3: Retrieve and Display Results**
+
+The output provides a detailed description of the uploaded video content:
+
+"content": "This is an indoor scene showing a conference room with multiple people engaged in discussion."
+
+**Customization**
+
+**Rerank Module**
+
+Adjust the chunk size and overlap in RecursiveCharacterTextSplitter.
+Customize the search_kwargs parameter to modify the number of retrieved documents.
+
+**VILA**
+
+Extend supported media formats in the kSupportedList dictionary.
+Modify query parameters (e.g., temperature, max_tokens) for tailored outputs.
+
+**Applications**
+
+Enhanced Document Search:
+Rerank functionality improves the accuracy of search results in knowledge bases or archives.
+
+Multimedia Analysis:
+VILA enables querying and understanding multimedia content, such as video surveillance or image-based datasets.
