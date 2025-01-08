@@ -1,21 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # L3: Multi-agent Customer Support Automation
-# 
-# In this lesson, you will learn about the six key elements which help make Agents perform even better:
-# - Role Playing
-# - Focus
-# - Tools
-# - Cooperation
-# - Guardrails
-# - Memory
-
-# The libraries are already installed in the classroom. If you're running this notebook on your own machine, you can install the following:
-# ```Python
 # !pip install crewai==0.28.8 crewai_tools==0.1.6 langchain_community==0.0.29
-# ```
-
 
 # Warning control
 import warnings
