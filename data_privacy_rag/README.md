@@ -54,7 +54,7 @@ The project includes two primary approaches:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/data-privacy-llm.git
+   git clone https://github.com/abhishekdodda/data-privacy-llm.git
    cd data-privacy-llm
 
 **Install the dependencies:**
