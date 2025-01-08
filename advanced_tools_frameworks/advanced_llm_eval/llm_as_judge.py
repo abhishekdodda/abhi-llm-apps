@@ -8,6 +8,11 @@ from datasets import Dataset, DatasetDict  # Import Dataset and DatasetDict
 from dataclasses import dataclass, field
 from langchain.prompts import Prompt
 from ragas.metrics import MetricWithLLM, EvaluationMode
+# Load NVIDIA API key from environment variable
+nvidia_api_key = os.getenv("NVIDIA_API_KEY")
+
+if not nvidia_api_key:
+    raise ValueError("NVIDIA API key not found. Please set the NVIDIA_API_KEY environment variable.")
 import typing as t
  
 dataset_name = "abhi-dodda/MACCROBAT_biomedical_ner"
@@ -111,6 +116,7 @@ nvidia_embeddings = NVIDIAEmbeddings(model="nvidia/nv-embedqa-e5-v5", truncate="
 score = evaluate(dataset["eval"], metrics=[retrieval_precision], llm=nvidia_llm, embeddings=nvidia_embeddings, raise_exceptions=False, is_async=False)
 
 import enum
+import os
  
 class Choices(enum.Enum):
     Y = "Y"
