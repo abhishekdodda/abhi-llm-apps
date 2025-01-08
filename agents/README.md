@@ -8,7 +8,7 @@ Both systems leverage CrewAI's multi-agent capabilities to deliver efficient and
 
 ---
 
-** Key Features**
+**Key Features**
 
 **Customer Support Agent**
 
