@@ -47,9 +47,9 @@ MoA Models Used
 The app utilizes the following models:
 
 **Reference Models:**
-Qwen/Qwen2-72B-Instruct
-Qwen/Qwen1.5-72B-Chat
-mistralai/Mixtral-8x22B-Instruct-v0.1
+Qwen/Qwen2-72B-Instruct,
+Qwen/Qwen1.5-72B-Chat,
+mistralai/Mixtral-8x22B-Instruct-v0.1,
 databricks/dbrx-instruct
 
 **Aggregator Model:**
