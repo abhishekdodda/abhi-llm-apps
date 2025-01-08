@@ -12,7 +12,7 @@ Whether you’re exploring generative AI, fine-tuning models, or building robust
 
 ### AI Agents
 Discover intelligent, task-specific agents designed for:
-- **Customer Support**: Deliver friendly and comprehensive assistance.
+- **Customer Support**: Deliver friendly and comprehensive responses to user querys.
 - **Research Content Creation**: Plan, write, and edit high-quality research articles or blogs with collaborative agents.
 These agents leverage advanced conversational frameworks for efficiency and accuracy.
 
