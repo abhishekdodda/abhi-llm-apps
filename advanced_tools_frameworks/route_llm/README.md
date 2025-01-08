@@ -8,7 +8,7 @@ RouteLLM is designed to address the critical trade-off between performance and c
 
 Stronger Models: High-performance models, such as GPT-4 or GPT-4o, excel in delivering advanced reasoning and high-quality responses. However, these models come with significant computational costs, making them less feasible for frequent or large-scale deployments.
 
-Weaker Models: Cost-effective alternatives, such as self-hosted models like Llama-3.1-70B, are more affordable to operate. While these models perform well for certain tasks, they may lack the sophisticated reasoning capabilities required for complex scenarios and rank lower on LLM benchmark leaderboards.
+Weaker Models: Cost-effective alternatives, such as self-hosted models like Llama-3.1-8B, mixtral-8x7b-instruct-v0.1 are more affordable to operate. While these models perform well for certain tasks, they may lack the sophisticated reasoning capabilities required for complex scenarios and rank lower on LLM benchmark leaderboards.
 
 RouteLLM leverages advanced routing techniques to dynamically select the most suitable model based on the task requirements, optimizing for both performance and cost-efficiency.
 
@@ -67,7 +67,7 @@ Chat Input: Enter your query, and RouteLLM will dynamically decide which model t
 
 **Strong Model:** gpt-4o-mini
 
-**Weak Model:** Meta-Llama-3.1-70B-Instruct-Turbo
+**Weak Model:** Meta-Llama-3.1-8B-Instruct-Turbo
 
 **Router:** Trained to optimize the balance between cost and response quality.
 
