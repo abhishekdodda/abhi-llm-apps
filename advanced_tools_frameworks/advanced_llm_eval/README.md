@@ -4,10 +4,10 @@ Welcome to the project on **Evaluating LLM Applications** using the **LLM-as-a-J
 
 ## Overview
 
-project showcases an end-to-end evaluation pipeline designed to assess the performance of RAG-based LLM systems. By using **RAGAS**, a specialized library for RAG evaluation, combined with **NVIDIA AI Endpoints**, the framework ensures robust and precise evaluation metrics tailored for real-world use cases, including **biomedical** and **domain-specific applications**.
+project showcases an end-to-end evaluation pipeline designed to assess the performance of RAG-based LLM systems. By using **RAGAS**, a specialized library for RAG evaluation, combined with **NVIDIA AI Endpoints**, the framework ensures robust and precise evaluation metrics tailored for real-world use cases. 
 
 Key highlights include:
-- Generating test datasets with RAGAS and LangChain integration.
+- Generating test datasets with LLMs, RAGAS and LangChain integration.
 - Assessing answer relevancy and faithfulness with custom prompts.
 - Employing NVIDIA models for high-quality evaluation and embeddings.
 - Customizing evaluation metrics like retrieval precision for targeted assessments.
