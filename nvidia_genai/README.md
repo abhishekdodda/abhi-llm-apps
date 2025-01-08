@@ -36,8 +36,8 @@ This project demonstrates building advanced Large Language Model (LLM) applicati
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/nvidia-llm-apps.git
-   cd nvidia-llm-apps
+   git clone https://github.com/abhishekdodda/nvidia_genai.git
+   cd nvidia_genai
    pip install -r requirements.txt
    NVIDIA_API_KEY=your_nvidia_api_key
 
