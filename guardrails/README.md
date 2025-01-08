@@ -41,15 +41,13 @@ the project showcases methods to handle sensitive topics, prevent jailbreaking a
 ### Steps
 
 1. Clone the repository:
-
+   ```bash
    git clone https://github.com/abhishekdodda/llm-guardrails.git
-   
    pip install -r requirements.txt
-
    Create a .env file and add your OpenAI API key:
-
    OPENAI_API_KEY=your_openai_api_key
-
+   ```
+   
 Usage
 **NeMo Guardrails**
 
@@ -61,9 +59,9 @@ Specify sensitive topics (e.g., politics, rudeness, PII) and corresponding bot r
 **Running the Guardrails**
 
 Run the script to test the guardrails:
-
+```bash
 python nemo_guardrails.py
-
+```
 **Example Outputs:**
 
 **Rudeness:**
@@ -95,9 +93,9 @@ Define harm categories (e.g., violence, self-harm, insults).
 Running LlamaGuard
 
 Run the script to test LlamaGuard:
-
+```bash
 python llamaguard.py
-
+```
 **Example Outputs:**
 
 **Unsafe Content Detection:**
@@ -152,9 +150,9 @@ We welcome contributions to improve this project. To contribute:
 Fork the repository.
 
 Create a feature branch:
-
+```bash
 git checkout -b feature-name
-
+```
 Commit your changes and push the branch.
 
 Open a pull request.
