@@ -44,8 +44,8 @@ Our evaluation on benchmarks demonstrates:
 
 **Steps**
 ```bash
-   git clone https://github.com/abhishekdodda/routellm-chat-app.git
-   cd routellm-chat-app
+   git clone https://github.com/abhishekdodda/route_llm.git
+   cd route_llm
    pip install -r requirements.txt
    streamlit run app.py
 ```
