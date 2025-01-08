@@ -8,14 +8,6 @@ This repository demonstrates the use of a **semantic cache** to optimize inferen
 - **Fast Retrieval**: Implements a high-performance caching layer using FAISS for real-time query matching.
 - **Scalability**: Designed for seamless integration into LLM-based applications.
 
-## Installation
-
-To set up the project locally, follow these steps:
-```bash
-   git clone https://github.com/abhishekdodda/semantic-cache.git
-   cd semantic-cache
-   pip install -r requirements.txt
-```
 **Open the Jupyter Notebook**
 jupyter notebook LLMs_semantic_cache.ipynb
 
