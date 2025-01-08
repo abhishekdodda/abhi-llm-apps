@@ -44,8 +44,7 @@ Both systems leverage CrewAI's multi-agent capabilities to deliver efficient and
 
 **Running the Systems**
 
-**Customer Support Agent
-**
+**Customer Support Agent**
 
 The Customer Support Agent system provides comprehensive support to customers, ensuring high quality and reliability.
 
@@ -60,15 +59,14 @@ crew.kickoff(inputs={
 })
 
 
-**The system outputs:
-**
+**The system outputs**
 
 Support Representative's Response
 Quality Assurance Review
 
 
-**Research Article Writer
-**
+**Research Article Writer**
+
 The Research Article Writer system generates well-structured and factually accurate blog articles.
 
 Set API Key: Configure your OpenAI API key in the get_openai_api_key() function.
@@ -76,7 +74,7 @@ Run the Writing System:
 
 crew.kickoff(inputs={"topic": "Topic of the Research Article"})
 
-**The system outputs:**
+**The system outputs**
 
 Content Plan
 Written Article
@@ -84,13 +82,13 @@ Edited and Ready-to-Publish Article
 
 **Example Use Cases**
 
-**Customer Support Agent
-**
+**Customer Support Agent**
+
 Handle complex customer inquiries with friendly and detailed responses.
 Ensure customer satisfaction with a rigorous quality assurance process.
 
-**Research Article Writer
-**
+**Research Article Writer**
+
 Generate blog articles or research papers on technical or trending topics.
 Automate the content creation process with role-specific agents.
 
@@ -121,5 +119,3 @@ This project is distributed under the MIT License. See LICENSE for details.
 
 **Contact**
 For any questions, suggestions, or support, feel free to contact abhishek.dodda1@gmail.com
-
-
