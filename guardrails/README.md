@@ -45,8 +45,23 @@ the project showcases methods to handle sensitive topics, prevent jailbreaking a
    git clone https://github.com/abhishekdodda/abhi-llm-apps.git
    cd abhi-llm-apps/guardrails
    pip install -r requirements.txt
+
    Create a .env file and add your OpenAI API key:
    OPENAI_API_KEY=your_openai_api_key
+
+   # Install Ollama and pull models
+
+   curl -fsSL https://ollama.com/install.sh | sh
+
+   # Start Ollama server in the background and pull models
+
+   # Note: Using "&" to run in background, and "disown" to detach from the current shell session.  This is important for Colab.
+
+   ollama serve & ollama pull llama3.2
+
+   ollama serve & ollama pull llama-guard3
+
+   ollama serve & ollama pull mistral
    ```
    
 Usage
