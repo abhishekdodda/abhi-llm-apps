@@ -4,11 +4,13 @@ The RouteLLM App is a innovative application designed to optimize inference effi
 
 ---
 
-## What is RouteLLM?
+RouteLLM is designed to address the critical trade-off between performance and cost when deploying Large Language Models (LLMs) for various tasks. LLMs exhibit remarkable capabilities, but choosing the appropriate model often requires balancing quality and efficiency:
 
-Large language models (LLMs) exhibit impressive capabilities across a wide range of tasks, yet selecting the right model often involves a trade-off between performance and cost:
-- **Stronger Models**: Deliver higher-quality responses but are more expensive to run.
-- **Weaker Models**: Are cost-effective but may compromise response quality.
+Stronger Models: High-performance models, such as GPT-4 or GPT-4o, excel in delivering advanced reasoning and high-quality responses. However, these models come with significant computational costs, making them less feasible for frequent or large-scale deployments.
+
+Weaker Models: Cost-effective alternatives, such as self-hosted models like Llama-3.1-70B, are more affordable to operate. While these models perform well for certain tasks, they may lack the sophisticated reasoning capabilities required for complex scenarios and rank lower on LLM benchmark leaderboards.
+
+RouteLLM leverages advanced routing techniques to dynamically select the most suitable model based on the task requirements, optimizing for both performance and cost-efficiency.
 
 To address this dilemma, **RouteLLM** employs router models that:
 1. Dynamically decide whether to use a stronger or weaker model for each query.
@@ -17,7 +19,6 @@ To address this dilemma, **RouteLLM** employs router models that:
 ### Key Innovations:
 - **Dynamic Routing**: Router models make decisions in real-time to balance cost and performance.
 - **Training Framework**: Leveraging human preference data and data augmentation techniques, the routers are trained to optimize decision-making.
-- **Transfer Learning**: Routers maintain performance even when the underlying strong and weak models are swapped during testing.
 
 Our evaluation on benchmarks demonstrates:
 - **Cost Reductions**: Savings of over 2x in certain cases.
