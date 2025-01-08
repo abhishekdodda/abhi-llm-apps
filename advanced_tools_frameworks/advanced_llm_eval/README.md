@@ -85,4 +85,3 @@ The framework is demonstrated on a **biomedical dataset** (`MACCROBAT_biomedical
 This repository provides a robust framework for evaluating Retrieval-Augmented Generation (RAG) systems, ensuring high-quality, reliable, and relevant outputs. With its focus on metrics like answer relevancy, faithfulness, and retrieval precision, it serves as a critical tool for assessing AI systems in sensitive and domain-specific applications.
 
 For further details and examples, explore the codebase and blog post linked above. Let’s build trustworthy AI together!
-```
