@@ -37,13 +37,12 @@ Our evaluation on benchmarks demonstrates:
 
 ## Installation
 
-### Prerequisites
-
+**Prerequisites**
 - Python 3.8+
 - OpenAI API Key
 - TogetherAI API Key
 
-### Steps
+**Steps**
    git clone https://github.com/abhishekdodda/routellm-chat-app.git
    cd routellm-chat-app
    pip install -r requirements.txt
