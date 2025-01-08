@@ -1,7 +1,6 @@
 # RouteLLM App
 
-The **RouteLLM App** is an innovative application that leverages **efficient router models using classfication ML algorithms** to dynamically select between stronger and weaker Large Language Models (LLMs) during inference. 
-This approach balances cost and response quality, making it a practical solution for deploying LLMs in real-world applications.
+The RouteLLM App is a innovative application designed to optimize inference efficiency by utilizing advanced router models based on classification machine learning algorithms. These models dynamically select between stronger and weaker Large Language Models (LLMs), striking an ideal balance between cost-effectiveness and response quality. This approach offers a scalable and practical solution for deploying LLMs in real-world scenarios, ensuring resource efficiency without compromising performance.
 
 ---
 
