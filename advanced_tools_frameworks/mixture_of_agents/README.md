@@ -49,15 +49,20 @@ The app utilizes the following models:
 
 **Reference Models:**
 Qwen/Qwen2-72B-Instruct,
+
 Qwen/Qwen1.5-72B-Chat,
+
 mistralai/Mixtral-8x22B-Instruct-v0.1,
+
 databricks/dbrx-instruct
 
 **Aggregator Model:**
 mistralai/Mixtral-8x22B-Instruct-v0.1
 
 **Use Cases**
-Mixture of Agents is ideal for scenarios where quality outweighs latency, including:
+Mixture of Agents is ideal for scenarios where quality outweighs latency
+
+**Including:**
 
 **Synthetic Data Generation:** Produces diverse and high-quality datasets.
 
