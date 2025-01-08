@@ -39,7 +39,7 @@ This project demonstrates building advanced Large Language Model (LLM) applicati
    git clone https://github.com/your-username/nvidia-llm-apps.git
    cd nvidia-llm-apps
    pip install -r requirements.txt
-   NVIDIA_API_KEY=your_nvidia_api_key```
+   NVIDIA_API_KEY=your_nvidia_api_key
 
 Usage
 
