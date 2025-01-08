@@ -1,6 +1,6 @@
 Finetune Llama 3.2 in 30 Lines of Python
 
-This script demonstrates how to finetune the Llama 3.2 model using the [Unsloth](https://unsloth.ai/) library, which makes the process easy and fast. You can run this example to finetune Llama 3.1 1B and 3B models for free in Google Colab.
+Code demonstrates how to finetune the Llama 3.2 model using the [Unsloth] library, which makes the process easy and fast.
 
 ### Features
 
@@ -14,8 +14,8 @@ This script demonstrates how to finetune the Llama 3.2 model using the [Unsloth]
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/llm_finetuning_tutorials/llama3.2_finetuning
+git clone https://github.com/abhishekdodda/llm_finetuning.git
+cd llm_finetuning
 ```
 
 2. Install the required dependencies:
