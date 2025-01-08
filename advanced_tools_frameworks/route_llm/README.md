@@ -49,6 +49,7 @@ Our evaluation on benchmarks demonstrates:
    streamlit run app.py
 
 **Interface Walkthrough**
+
 Chat History: Displays user and assistant messages along with the model used for each response.
 
 Chat Input: Enter your query, and RouteLLM will dynamically decide which model to use for the response.
@@ -71,15 +72,16 @@ Chat Input: Enter your query, and RouteLLM will dynamically decide which model t
 
 **Use Cases**
 
-The RouteLLM Chat App is ideal for:
+**The RouteLLM Chat App is ideal for:**
 
-Cost-Effective Applications: Deploy LLMs efficiently for use cases like customer support and interactive chatbots.
+**Cost-Effective Applications:** Deploy LLMs efficiently for use cases like customer support and interactive chatbots.
 
-Research and Evaluation: Test dynamic routing with different strong and weak model configurations.
+**Research and Evaluation:** Test dynamic routing with different strong and weak model configurations.
 
-Scalable AI Solutions: Minimize costs while delivering high-quality outputs at scale.
+**Scalable AI Solutions:** Minimize costs while delivering high-quality outputs at scale.
 
 **Contributing**
+
 We welcome contributions to enhance the project! To contribute:
 
 Fork the repository.
