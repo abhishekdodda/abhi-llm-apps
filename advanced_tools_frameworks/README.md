@@ -1,17 +1,12 @@
-Here I have experimented with few advanced framework implementation on llm engineering.
+# Semantic Cache for LLM Inference: Cost Savings and Fast Retrieval
 
-1. Using Semantic Cache For llm Inference cost savings and fast retrival. Code 
+This repository demonstrates the use of a **semantic cache** to optimize inference workflows with Large Language Models (LLMs). By leveraging semantic similarity and intelligent caching mechanisms, this approach reduces redundant computations, decreases inference costs, and enhances retrieval speeds.
 
+## Key Features
 
-
-# Semantic Cache Implementation
-
-This repository provides a Proof of Concept (POC) for implementing a semantic caching system using advanced natural language processing (NLP) models and libraries. The project demonstrates the use of semantic similarity to enhance cache efficiency and reduce redundant computations in data-heavy applications.
-
-## Features
-- **Semantic Similarity Matching**: Leverages pre-trained models to determine the similarity between queries.
-- **Cache Optimization**: Implements intelligent caching strategies for faster data retrieval.
-- **Scalable Design**: Built with modern NLP frameworks for seamless scalability.
+- **Inference Cost Optimization**: Minimizes redundant API calls to LLMs by caching semantically similar queries.
+- **Fast Retrieval**: Implements a high-performance caching layer using FAISS for real-time query matching.
+- **Scalability**: Designed for seamless integration into LLM-based applications.
 
 ## Installation
 
