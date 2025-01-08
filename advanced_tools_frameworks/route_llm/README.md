@@ -43,11 +43,12 @@ Our evaluation on benchmarks demonstrates:
 - TogetherAI API Key
 
 **Steps**
+```bash
    git clone https://github.com/abhishekdodda/routellm-chat-app.git
    cd routellm-chat-app
    pip install -r requirements.txt
    streamlit run app.py
-
+```
 **Interface Walkthrough**
 
 Chat History: Displays user and assistant messages along with the model used for each response.
@@ -87,9 +88,9 @@ We welcome contributions to enhance the project! To contribute:
 Fork the repository.
 
 **Create a feature branch:**
-
+```bash
 git checkout -b feature-name
-
+```
 Commit your changes and push the branch.
 
 Open a pull request.
