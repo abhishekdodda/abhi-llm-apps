@@ -31,50 +31,50 @@ The aggregator model:
 ## Installation
 
 To set up and run the project locally, follow these steps:
-   git clone https://github.com/your-username/mixture-of-agents.git
-   cd mixture-of-agents
-   pip install -r requirements.txt
-   streamlit run app.py
+git clone https://github.com/your-username/mixture-of-agents.git
+cd mixture-of-agents
+pip install -r requirements.txt
+streamlit run app.py
 
 Interface Walkthrough
 Main Page:
 
-Enter your Together API Key to authenticate.
-Input a question or prompt to query the MoA system.
-View individual LLM responses and the aggregated result.
-Sidebar:
+Enter your Together API Key to authenticate. Input a question or prompt to query the MoA system. View individual LLM responses and the aggregated result.
 
+Sidebar:
 Learn about MoA and how it works.
 MoA Models Used
 The app utilizes the following models:
 
-Reference Models:
+**Reference Models:**
 Qwen/Qwen2-72B-Instruct
 Qwen/Qwen1.5-72B-Chat
 mistralai/Mixtral-8x22B-Instruct-v0.1
 databricks/dbrx-instruct
-Aggregator Model:
-mistralai/Mixtral-8x22B-Instruct-v0.1
-Use Cases
-Mixture of Agents is ideal for scenarios where quality outweighs latency, including:
 
+**Aggregator Model:**
+mistralai/Mixtral-8x22B-Instruct-v0.1
+
+**Use Cases**
+Mixture of Agents is ideal for scenarios where quality outweighs latency, including:
 Synthetic Data Generation: Produces diverse and high-quality datasets.
 Detailed Research: Synthesizes nuanced perspectives from multiple models.
 Balanced Decision-Making: Mitigates biases by incorporating insights from multiple LLMs.
-Contributing
-We welcome contributions to this project! To contribute:
 
+Contributing
+Welcome contributions to this project! To contribute:
 Fork the repository.
 Create a feature branch:
-bash
-Copy code
+
 git checkout -b feature-name
+
 Commit your changes and push the branch.
 Open a pull request.
+
 License
 This project is distributed under the MIT License. See LICENSE for more details.
 
 Contact
-For any questions, suggestions, or support, feel free to contact [your-email@example.com].
+For any questions, suggestions, or support, feel free to contact abhishek.dodda1@gmail.com
 
 
