@@ -58,11 +58,11 @@ mistralai/Mixtral-8x22B-Instruct-v0.1
 **Use Cases**
 Mixture of Agents is ideal for scenarios where quality outweighs latency, including:
 
-Synthetic Data Generation: Produces diverse and high-quality datasets.
+**Synthetic Data Generation:** Produces diverse and high-quality datasets.
 
-Detailed Research: Synthesizes nuanced perspectives from multiple models.
+**Detailed Research:** Synthesizes nuanced perspectives from multiple models.
 
-Balanced Decision-Making: Mitigates biases by incorporating insights from multiple LLMs.
+**Balanced Decision-Making:** Mitigates biases by incorporating insights from multiple LLMs.
 
 Contributing
 Welcome contributions to this project! To contribute:
