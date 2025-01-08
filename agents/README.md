@@ -16,8 +16,7 @@ Both systems leverage CrewAI's multi-agent capabilities to deliver efficient and
 - **Support Quality Assurance Specialist**: Reviews the support representative's responses to ensure they meet high-quality standards.
 - **Integrated Tools**: Uses website scraping tools (e.g., `ScrapeWebsiteTool`) to provide informed answers.
 
-**Research Article Writer
-**
+**Research Article Writer**
 - **Content Planner**: Creates a structured content outline, audience analysis, and SEO strategy.
 - **Content Writer**: Produces a compelling and factually accurate article based on the content plan.
 - **Editor**: Reviews and edits the article to align with journalistic best practices and the brand's voice.
