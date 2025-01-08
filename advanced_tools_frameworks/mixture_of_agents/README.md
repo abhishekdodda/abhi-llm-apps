@@ -28,15 +28,6 @@ The aggregator model:
 3. **Aggregation**: The aggregator model synthesizes the individual responses into a single comprehensive reply.
 4. **Display**: Both individual responses and the aggregated response are displayed in the app.
 
-## Installation
-
-To set up and run the project locally, follow these steps:
-```bash
-git clone https://github.com/abhishekdodda/mixture-of-agents.git
-cd mixture-of-agents
-pip install -r requirements.txt
-streamlit run app.py
-````
 Interface Walkthrough
 Main Page:
 
