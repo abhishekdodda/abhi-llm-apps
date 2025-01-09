@@ -10,17 +10,23 @@ Repo features a diverse range of **LLM applications** powered by models such as 
 
 Clone the repository
 
-```git clone https://github.com/abhishekdodda/abhi.git```
+```
+git clone https://github.com/abhishekdodda/abhi.git
+
+```
 
 Navigate to the desired project directory
 
-```bash
-cd awesome-llm-apps/chat_with_X_tutorials/chat_with_gmail```
+```
+cd awesome-llm-apps/chat_with_X_tutorials/chat_with_gmail
+```
 
 Install the required dependencies
 
-```bash
-pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+
+```
 
 Follow the project-specific instructions in each project's README.md file to set up and run the app.
 
