@@ -62,13 +62,11 @@ Mixture of Agents is ideal for scenarios where quality outweighs latency
 **Balanced Decision-Making:** Mitigates biases by incorporating insights from multiple LLMs.
 
 **Installation Instructions**
-
+```
 git clone https://github.com/abhishekdodda/abhi-llm-apps.git
-
 cd abhi-llm-apps/advanced_tools_frameworks/mixture_of_agents
-
 pip install -r requirements.txt
-
+```
 **Contributing**
 
 Welcome contributions to this project! To contribute:
