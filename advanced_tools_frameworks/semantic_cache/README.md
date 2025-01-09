@@ -22,7 +22,9 @@ jupyter notebook LLMs_semantic_cache.ipynb
 The project requires the following libraries:
 
 faiss-cpu
+
 sentence_transformers
+
 transformers
 
 Ensure these are installed before running the notebook.
