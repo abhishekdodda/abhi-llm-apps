@@ -28,7 +28,7 @@ Learn how to fine-tune models like **Llama 3.2** for specific applications:
 
 ### Guardrails for AI Safety
 Implement safety frameworks to ensure ethical AI deployments:
-- **NeMo Guardrails**: Manage sensitive topics and moderate responses with predefined conversational boundaries.
+- **NeMo Guardrails**: Manage sensitive data and moderate responses with predefined conversational boundaries.
 - **LlamaGuard**: Detect and block unsafe content, preventing jailbreaking attempts and ensuring compliance with safety policies.
 
 ### Advanced Tools and Frameworks
