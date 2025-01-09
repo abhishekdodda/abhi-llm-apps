@@ -6,6 +6,23 @@ Welcome to **Abhi-LLM-Apps**, implementation of projects and prototypes demonstr
 
 Repo features a diverse range of **LLM applications** powered by models such as **OpenAI**, **Llama 3**, and **Mistral**, as well as frameworks like **Ollama** for local model deployment. For advanced users, it includes implementations of **Nvidia NIMs** and **VILA**, as well as highly customized tools like **Mixture of Agents** and **Route LLM**, **LLM-as-a-Judge**, **Semantic Cache** for specialized use cases.
 
+**Getting Started**
+
+Clone the repository
+
+```git clone https://github.com/abhishekdodda/abhi.git```
+
+Navigate to the desired project directory
+
+```cd awesome-llm-apps/chat_with_X_tutorials/chat_with_gmail```
+
+Install the required dependencies
+
+```pip install -r requirements.txt```
+
+Follow the project-specific instructions in each project's README.md file to set up and run the app.
+
+
 **Go through the below, on what is built here**
 
 ## Highlights
