@@ -44,8 +44,8 @@ Our evaluation on benchmarks demonstrates:
 
 **Steps**
 ```bash
-   git clone https://github.com/abhishekdodda/route_llm.git
-   cd route_llm
+   git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+   cd abhi-llm-apps/advanced_tools_frameworks/route_llm
    pip install -r requirements.txt
    streamlit run app.py
 ```
