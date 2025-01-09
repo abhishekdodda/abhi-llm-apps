@@ -17,7 +17,7 @@ git clone https://github.com/abhishekdodda/abhi-llm-apps.git
 Navigate to the desired project directory
 
 ```
-cd awesome-llm-apps/chat_with_X_tutorials/chat_with_gmail
+cd abhi-llm-apps/advanced_tools_frameworks/advanced_llm_eval
 ```
 
 Install the required dependencies
