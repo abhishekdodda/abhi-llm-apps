@@ -90,7 +90,7 @@ Example: Input:
 "Abhishek Dodda is in Texas and his phone number is 555-555-5555"
 
 Output:
-<ANONYMIZED> is in <ANONYMIZED> and his phone number is <ANONYMIZED>
+'<ANONYMIZED>' is in '<ANONYMIZED>' and his phone number is '<ANONYMIZED>'
 
 Database: Tracks original values and anonymization details in pii_mapping.db.
 
