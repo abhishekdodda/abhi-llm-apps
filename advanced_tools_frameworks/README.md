@@ -22,6 +22,8 @@ Enable scalable and cost-effective AI applications without sacrificing performan
 
 Robust evaluation framework for your llm applications,
 The framework applies the LLM-as-a-Judge methodology, utilizing powerful language models as evaluators to analyze and grade generated outputs. This ensures objective and consistent evaluation across metrics.
+
 Answer Relevancy: Measures how relevant the generated answers are to the provided query.
+
 Faithfulness: Ensures that generated answers are grounded in the provided context and do not hallucinate information.
 Demonstration of using Ragas Frameworks, Nvidia models
