@@ -117,6 +117,9 @@ Output: "Guard-rail triggered: Unsafe content detected."
 
 **Jailbreaking Demonstration Using Llamaguard**
 
+```
+python guardrails/jailbreak.py
+```
 The project showcases how malicious prompts can attempt to bypass safeguards and how guardrails mitigate such threats. 
 
 Example:
