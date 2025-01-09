@@ -1,3 +1,4 @@
 langchain
 langchain_nvidia_ai_endpoints
 faiss-gpu
+requests
