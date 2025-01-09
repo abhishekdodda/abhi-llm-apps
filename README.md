@@ -10,8 +10,7 @@ Repo features a diverse range of **LLM applications** powered by models such as 
 
 Clone the repository
 
-```bash
-git clone https://github.com/abhishekdodda/abhi.git```
+```git clone https://github.com/abhishekdodda/abhi.git```
 
 Navigate to the desired project directory
 
