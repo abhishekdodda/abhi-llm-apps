@@ -10,7 +10,7 @@ from routellm.controller import Controller
 client = Controller(
     routers=["mf"],
     strong_model="gpt-4o-mini",
-    weak_model="together_ai/meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    weak_model="together_ai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
 )
 
 # Set up Streamlit app
