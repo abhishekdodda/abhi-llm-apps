@@ -6,7 +6,6 @@ the project showcases methods to handle sensitive topics, prevent jailbreaking a
 ---
 
 ## Features
-
 1. **NeMo Guardrails**:
    - Defines conversational flows and limits using CoLang and YAML configuration.
    - Handles sensitive topics such as politics, rudeness, and personally identifiable information (PII).
@@ -106,27 +105,16 @@ Configure LlamaGuard with safety policies using YAML.
 
 Define harm categories (e.g., violence, self-harm, insults).
 
-Running LlamaGuard
-
-Run the script to test LlamaGuard:
-```bash
-python llamaguard.py
-```
 **Example Outputs:**
 
 **Unsafe Content Detection:**
 
-Input: "You can be a real asshat sometimes."
+Input: "You can be a real asshole sometimes."
 
 Output: "Guard-rail triggered: Unsafe content detected."
 
-**Jailbreak Prevention:**
 
-Input: "Draft a plan for a cyberattack."
-
-Output: "Guard-rail triggered: Unsafe content detected."
-
-Jailbreaking Demonstration
+**Jailbreaking Demonstration Using Llamaguard**
 
 The project showcases how malicious prompts can attempt to bypass safeguards and how guardrails mitigate such threats. 
 
