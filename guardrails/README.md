@@ -99,6 +99,7 @@ Output:"I'm a shopping assistant, I don't know what you're asking for"
 The bot refuses to disclose PII while ensuring a friendly response.
 
 **LlamaGuard Integration**
+
 Setting Up LlamaGuard
 
 Configure LlamaGuard with safety policies using YAML.
@@ -234,7 +235,8 @@ Add custom flows for specific use cases.
 **Enhance Safety Policies:**
 
 Extend LlamaGuard's harm categories to include additional topics.
-Audit and Debug:
+
+**Audit and Debug:**
 
 Use rails.explain() to inspect the inputs, outputs, and applied guardrails.
 
