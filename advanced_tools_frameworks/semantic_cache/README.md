@@ -8,6 +8,13 @@ This repository demonstrates the use of a **semantic cache** to optimize inferen
 - **Fast Retrieval**: Implements a high-performance caching layer using FAISS for real-time query matching.
 - **Scalability**: Designed for seamless integration into LLM-based applications.
 
+**Installation Steps**
+
+```
+git clone https://github.com/abhishekdodda/abhi-llm-apps.git
+cd abhi-llm-apps/advanced_tools_frameworks/semantic_cache
+pip install -r requirements.txt
+```
 **Open the Jupyter Notebook**
 jupyter notebook LLMs_semantic_cache.ipynb
 
@@ -15,9 +22,7 @@ jupyter notebook LLMs_semantic_cache.ipynb
 The project requires the following libraries:
 
 faiss-cpu
-
 sentence_transformers
-
 transformers
 
 Ensure these are installed before running the notebook.
